@@ -74,14 +74,14 @@ jobs:
           git clone https://github.com/Baozisoftware/luci-app-koolproxy
 
       - name: Lienol
-          run: |
-            cd friendlywrt-h5/friendlywrt/package
-            git clone https://github.com/Lienol/openwrt-package
+        run: |
+          cd friendlywrt-h5/friendlywrt/package
+          git clone https://github.com/Lienol/openwrt-package
     
       - name: openclash
-            run: |
-              cd friendlywrt-h5/friendlywrt/package
-              git clone https://github.com/vernesong/OpenClash
+        run: |
+          cd friendlywrt-h5/friendlywrt/package
+          git clone https://github.com/vernesong/OpenClash
         
       - name: Update Target.mk
         run: |
